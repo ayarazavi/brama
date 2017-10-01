@@ -18,6 +18,8 @@
   "homepage": "https://github.com/ayarazavi/brama#readme",
   "dependencies": {
     "dotenv": "^4.0.0",
-    "express": "4.16.1"
+    "express": "4.16.1",
+    "mysql2": "^1.4.2",
+    "sequelize": "^4.13.1"
   }
 }

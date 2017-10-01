@@ -1,8 +1,11 @@
 module.exports = {
-  // db: {
-  //   uri: process.env.MONGODB_URI,
-  //   debug: process.env.MONGODB_DEBUG || false,
-  // },
+  db: {
+    database: process.env.DATABASE,
+    username: process.env.USERNAME,
+    debug: process.env.DEBUG,
+    host: 'localhost',
+  },
+
   // facebook: {
   //   APP_ID: process.env.FB_APP_ID,
   //   APP_SECRET: process.env.FB_APP_SECRET,
