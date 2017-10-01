@@ -1,9 +1,13 @@
 
-function index(request, response){
- 	return response.json('hey');
 
-}
 
-module.exports = {
-	index: index
+module.exports = function(db) {
+
+	return {
+		index : function index(request, response) {
+			db.user.findAll().then(function() {
+				response.json("DB query")
+			})
+		}
+	}
 }
