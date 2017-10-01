@@ -3,7 +3,7 @@ module.exports = {
     database: process.env.DATABASE,
     username: process.env.USERNAME,
     debug: process.env.DEBUG,
-    host: 'localhost',
+    host: process.env.HOST,
   },
 
   // facebook: {
