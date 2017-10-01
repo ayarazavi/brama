@@ -1,9 +1,6 @@
 module.exports = {
   db: {
-    database: process.env.DATABASE,
-    username: process.env.USERNAME,
-    debug: process.env.DEBUG,
-    host: process.env.HOST,
+    connectionString : process.env.CONNECTION_STRING
   },
 
   // facebook: {
