@@ -1,0 +1,5 @@
+PORT=3001
+DATABASE=brama
+USERNAME=root
+PASSWORD=pass
+HOST=localhost
